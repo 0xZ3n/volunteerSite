@@ -73,3 +73,72 @@ footer a {
     color: whitesmoke;
     font-weight: lighter;
 }
+
+section {
+    padding: 60px;
+}
+
+.welcome-banner {
+    color:rgb(28, 207, 28);
+    margin:auto;
+    border-color: chartreuse;
+    padding: 200;
+}
+
+.hero {
+    color: brown;
+    background-image: url("../css/images/MPEA.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    background-color: rgb(28, 207, 28);
+    padding: 15px;
+    width: 500px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: white;
+    background-color: brown;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    font-size: 16px;
+}
